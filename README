@@ -1,0 +1,49 @@
+This is the README file for Allie Robbins' Digital Image Assignment 2
+
+All files were written in C++ on Visual Studio 2017, referencing OpenCV 3.4.1.
+
+List of Files included in program:
+  - program1
+  - program2
+  - program3
+  - program4
+  - program5
+  - program6
+  - makefile
+  - README
+
+Four image files were included in the directory for testing, including:
+  - astronaut.jpg
+  - astronautbw.jpg
+  - astronautbw1.jpg
+  - noisy_backyard.jpg
+
+To execute the program:
+    Run command "make" to build/compile the programs.
+    Run command "./programName imageName" to run a program after it is built.
+
+To clean the object files:
+    Run command "make clean".
+
+Purpose of program:
+    The purpose of this program is perform image transformations and gather statistical data.
+
+Outline of Assignment 2 by program:
+  - PROGRAM 1: Write a program to compare two grayscale images of the same size.
+      Compute the average distance between corresponding pixel intensity levels.
+
+  - PROGRAM 2: Write a function to convert a color image to a greyscale image.
+      Compute the distance of your greyscale-converted image from the
+      grayscale conversion by OpenCV using the program from program1.cpp.
+
+  - PROGRAM 3: Write a program that will provide some statistical information on gray
+      scale images. Find the average value of pixels and the standard deviation.
+      Plot a 256×256 histogram with the data.
+
+  - PROGRAM 4: Write a program to subsample a grayscale image by removing alternate
+  	  rows and columns.
+
+  - PROGRAM 5: Write a program to split a grayscale image into bit planes.
+  	  Save the bit planes and display them on screen.
+
+  - PROGRAM 6: Write functions to flip and flop an image in-place.
